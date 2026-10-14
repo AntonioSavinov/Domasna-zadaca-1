@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Domasna zadaca</title>
+</head>
+<body>
+<p>
+<h1>
+    Kontrolen panel za pameten dom &copy;
+</h1>
+Menu:<br>
+<a href="#Kujna">Kujna</a><br>
+<a href="#Spalna">Spalna</a><br>
+<a href="#Dnevna">Dnevna</a><br>
+<a href="#Gradina">Gradina</a><br>
+<section id="Kujna"></section>
+<h2>
+    Kujna
+</h2>
+<h3>
+    Detektor za chad
+</h3>
+<input type="radio" name="chad">Detected
+<input type="radio" name="chad" checked>Not detected<br><br>
+Battery:<strong> 47%</strong><br>
+Status:<strong> ON</strong> 
+<h3>
+    Senzor za vnatresna temperatura vo frizider
+</h3>
+<input type="number" name="frizider" value="13" min="4" max="16"><br><br>
+Battery:<strong> 43%</strong><br>
+Status:<strong> ON</strong>
+<h3>    
+    Senzor za vnatresna temperatura vo sporet
+</h3>
+<input type="range" name="sporet" value="150" min="50" max="300"><br><br>
+Battery:<strong> 22%</strong><br>
+Status:<strong> OFF</strong>
+<section id="Spalna"></section>
+<h2>
+    Spalna
+</h2>
+<h3>
+    Detektor za jaglerod monoksid
+</h3>
+<input type="radio" name="monoksid" checked>Detected
+<input type="radio" name="monoksid">Not detected<br><br>
+Battery:<strong> 36%</strong><br>
+Status:<strong> ON</strong>
+<h3>
+    Grealka
+</h3>
+<input type="color" name="grealka" value="red"><br><br>
+Battery:<strong> 90%</strong><br>
+Status:<strong> ON</strong>
+<h3>
+    Jacina na procistuvac na vozduh
+</h3>
+<input type="range" name="procistuvac" value="2" min="0" max="5"><br><br>
+Battery:<strong> 67%</strong><br>
+Status:<strong> ON</strong>  
+<section id="Dnevna"></section>
+<h2>
+    Dnevna
+</h2>
+<h3>
+    Pametni roletni
+</h3>
+<input type="radio" name="roletni">ON
+<input type="radio" name="roletni">OFF<br><br>
+Battery:<strong> 57%</strong><br>
+Status:<strong> ON</strong>
+<h3>
+    Senzor za prashina na pod (Roomba mode)
+</h3>
+<select>
+    <option>Minimum</option>
+    <option>Economic</option>
+    <option>Strong</option>
+    <option>Maximum</option>
+</select>
+<br><br>
+Battery:<strong> 13%</strong><br>
+Status:<strong> OFF</strong>
+<h3>
+    Klimatski ured
+</h3>
+<input type="number" name="AC" value="25" min="10" max="30"><br><br>
+Battery:<strong> 26%</strong><br>
+Status:<strong> ON</strong>
+<section id="Gradina"></section>
+<h2>
+    Gradina
+</h2>
+<h3>
+    Senzor za mocija
+</h3>
+<input type="radio" name="mocija" checked>Detected
+<input type="radio" name="mocija">Not detected<br><br>
+Battery:<strong> 54%</strong><br>
+Status:<strong> ON</strong>
+<h3>
+    Podesuvac za vlaznost na zemjata
+</h3>
+<input type="range" name="vlaznost" value="30" min="0" max="100"><br><br>
+Battery:<strong> 70%</strong><br>
+Status:<strong> ON</strong>
+<h3>
+    Solaren panel
+</h3>
+<input type="color" name="solaren" value="yellow"><br><br>
+Battery:<strong> 11%</strong><br>
+Status:<strong> OFF</strong><br><br>
+<details>
+<summary>
+<strong>Notifikacii</strong>
+</summary>
+<ul>
+<li><u>Notifikacija</u>za detektiran chad vo kujnata</li>
+<li><u>Notifikacija</u> za nepreporacana temperatura na friziderot</li>
+<li><u>Notifikacija</u> za niska baterija na roomba</li>
+<li><u>Notifikacija</u> za detektirana mocija vo gradinata</li>
+<li><u>Notifikacija</u> za previsoka temperatura vo sporetot</li>
+<li><u>Notifikacija</u> za niska baterija na solaren panel</li>
+</ul>
+</details>
+</p>    
+</body>
+</html>
