@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <title>Domasna zadaca</title>
+    <link rel="stylesheet" href="stil.css">
 </head>
 <body>
 <p>
@@ -117,7 +118,7 @@ Status:<strong> OFF</strong><br><br>
 <strong>Notifikacii</strong>
 </summary>
 <ul>
-<li><u>Notifikacija</u>za detektiran chad vo kujnata</li>
+<li><u>Notifikacija</u> za detektiran chad vo kujnata</li>
 <li><u>Notifikacija</u> za nepreporacana temperatura na friziderot</li>
 <li><u>Notifikacija</u> za niska baterija na roomba</li>
 <li><u>Notifikacija</u> za detektirana mocija vo gradinata</li>
